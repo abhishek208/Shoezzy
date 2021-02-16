@@ -1,0 +1,651 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+   
+   
+}
+.container{
+   background-color: black;
+    
+}
+.logo{
+    margin-left: -2rem;
+ margin-top: 3rem;
+}
+.logo i{
+  font-size: 2rem;
+  color: red;
+  
+}
+.logo span{
+    font-weight: 600;
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.toggle-icons{
+    color: rgba(255, 255, 255, 0.863);
+    position: absolute;
+    left: 36rem;
+    top: 3.2rem;
+    font-size: 1.5rem;
+    display: none;
+   
+}
+.nav{
+    height: 0rem;
+    min-height: 8rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.flex-row{
+    display: flex;
+   
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-items{
+  display: flex;
+    
+}
+
+.nav-links{
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    list-style: none;
+
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: grey;
+    font-weight: 200;
+}
+.nav-links a:hover{
+    color: rgb(204, 23, 23);
+    
+}
+.start{
+    display: grid;
+    grid-template-columns: 47% 53%;
+    margin-top: 3rem;
+}
+.heading{
+    margin-left: 14rem;
+    margin-top: 3.5rem;
+}
+.heading h1{
+    font-size: 2.5rem;
+    font-family: 'Abel', sans-serif;
+    color: white;
+    margin-bottom: 0rem;
+}
+.heading h2{
+    font-size: 1.5rem;
+    margin: .5rem 0rem;
+    font-weight: 500;
+    color: rgba(77, 73, 73, 0.842);
+}
+.heading p{
+    line-break: normal;
+    line-height:1.6rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: rgba(128, 128, 128, 0.712);
+}
+.side img{
+    height: 28rem;
+
+   
+}.side{
+    margin-right: 5em;    margin-bottom:1.6rem;
+}
+.btn{
+    padding: .5rem 2.5rem;
+   border-radius: .3rem;
+    margin-top: 1rem;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+}
+.btn:hover{
+    color: red;
+    background-color: rgb(7, 7, 7);
+    border: 2px solid red;
+}
+.btn1{
+    padding: .4rem 1.8rem;
+    margin-left: .8rem;
+    margin-top: 1rem;
+    background-color: black;
+    border: 2px solid red;
+    color: red;
+    outline: none;
+    cursor: pointer;
+}
+.container2{
+    margin-top: 5rem;
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,23.5rem );
+    justify-content: center;
+}
+.side img{
+    width: 100%;
+    height: 100%;
+}
+.img1 img{
+    width: 100%;
+    height: 85%;
+ background-color: white;
+  
+}
+.img1{
+    margin: 1rem 1.5rem;
+    border: 2px solid rgba(128, 128, 128, 0.651);
+height: 80%;
+box-shadow:0 8px 12px rgba(128, 128, 128, 0.541);
+border-radius: .4rem;
+}
+.img1:hover{
+    box-shadow:0 3px 6px red;
+}
+.img1 a{
+    text-decoration: none;
+  margin-left: 6.1rem;
+  font-size: 1.3rem;
+  color: black;
+}
+.start1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.heading1{
+    margin-left: 8rem;
+}
+.side1 h1{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0rem;
+}
+.side1{
+    margin-right: 10rem;
+    margin-top: 5rem;
+   margin-left: 3rem;
+}
+
+.side1 h2 {
+    font-size: 1.5rem;
+    margin: .5rem 0rem;
+    font-weight: 500;
+    color: rgba(126, 45, 45, 0.842);
+}
+.side1 p{
+    line-break: normal;
+    line-height:1.6rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: rgba(128, 128, 128, 0.712);
+}
+.heading1 img{
+    width: 80%;
+    height:90%;
+   
+
+}
+
+.btn2{
+    padding: .5rem 2.5rem;
+    background-color:rgb(211, 32, 32);
+    color: white;
+    border-radius: .4rem;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color:rgb(247, 4, 4);
+}
+
+.container3{background: black;}
+.display1{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,21rem );
+    justify-content: center;
+}
+.img2 img{
+    width: 100%;
+    height: 94%;
+ background-color: white;
+  
+}
+.img2{
+    margin-top: 3rem ;
+    margin-left: 1.7rem;
+    box-shadow:0 4px 8px rgba(128, 128, 128, 0.541);
+   border-radius: .3rem;
+    border: 1.8px solid rgba(128, 128, 128, 0.534);
+    height:86%;
+    text-align: center;
+}
+.img2:hover{
+    border: 3px solid rgb(100, 98, 98);
+    filter: grayscale(1);
+}
+.img2 a{
+text-decoration: none;
+color: black;
+font-size: 1.2rem;
+margin-bottom: 1.3rem;
+
+}
+.start2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top:3rem ;
+}
+.heading2{
+    margin-left: 14rem;
+    margin-top: 3.5rem;
+}
+.heading2 h1{
+    font-size: 4rem;
+  
+    color: white;
+    margin-bottom: 0rem;
+}
+.container5{
+    background-color: black;
+  
+}
+.heading2 h2{
+    font-size: 1.5rem;
+    margin: .5rem 0rem;
+    font-weight: 500;
+    color: rgba(187, 38, 38, 0.842);
+}
+.heading2 p{
+    line-break: normal;
+    line-height:1.6rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: rgba(128, 128, 128, 0.712);
+}
+.btn3{
+    padding: .5rem 2.5rem;
+    background-color:rgb(211, 32, 32);
+    color: white;
+    border-radius: .4rem;
+    outline: none;
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color:rgb(255, 0, 0);
+}
+.side3 {
+margin-top:4rem ;
+}
+.side3 img{
+    width: 75%;
+    height: 92%;
+}
+
+.shoe-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    height:20%;
+    
+    margin: 3rem 6.8rem;
+    box-shadow: 0 5px 10px rgba(128, 128, 128, 0.774);
+    border-radius: .3rem;
+    
+}
+.shoe-content img{
+    height: 12rem;
+    width: 6rem;
+}
+.tittle h1{
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+.tittle h2{
+    font-weight: 400;
+    margin-top: .5rem;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.collapse{
+    height: 19rem;
+    transition:ease;
+  
+}
+.butt{
+    margin-left: 1rem;
+    font-size: .7rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    outline: none;
+    border: 2px solid rgba(160, 155, 155, 0.836);
+    border-radius: .3rem;
+}
+.butt:hover{
+    border: 2px solid rgb(211, 24, 24);
+    color: rgb(204, 23, 23);
+}
+.butt1{
+    padding: .4rem 2.4rem;
+    margin-bottom: 1rem;
+    background-color: rgb(228, 18, 18);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: .3rem;
+
+}
+.butt1:hover{
+    color: rgb(228, 18, 18);
+    border: 2px solid rgb(228, 18, 18);
+    background-color: white;
+}
+.heading3 img{
+    width: 100%;
+    height: 90%;
+}
+.show{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer.footer{
+    
+    margin-top: 0rem;
+     height:70%;
+     background-color: rgb(2, 2, 28);
+     position: relative;
+     margin-bottom: 0%;
+     }
+     footer.footer .container4{
+     display:grid;
+     grid-template-columns: 35% 35% 30% ;
+     
+     
+     }
+     
+     footer.footer .container4 >div{
+     flex-grow: 1;
+     flex-basis: 0;
+     padding: 3rem ;
+     }
+     footer.footer .newsletter  {
+     
+         background-color: solid black;
+         display: inline-block;
+     }
+     .asd{
+         padding: .4rem ;
+         border: none;
+         border-radius: 0rem;
+         width: 70%;
+         margin: 0%;
+        
+     }
+     span .dfg{
+         margin-top: .5rem;
+ 
+     }
+     .dfg{
+     
+         background-color: #a0c4ff;
+         padding: .4rem .3rem;
+         color: blue;
+         cursor: pointer;
+        
+     }
+     
+     footer.footer .follow div i{
+     
+     padding: 0.5rem;
+     
+     color:rgba(255, 255, 255, 0.432) ;
+     font-size: 1.7rem;
+     cursor: pointer;
+     }
+     footer.footer .follow div i:hover{
+     
+     color: white;
+     
+     }
+     .follow h2{
+         padding-left: 2.4rem;
+         
+     }
+     footer.footer .rights{
+         justify-content: center;
+     }
+     footer.footer .move-up{
+         position: absolute;
+         right: 6%;
+         top: 50%;
+         color: rgba(255, 255, 255, 0.432);
+         cursor: pointer;
+     }
+     footer.footer .move-up:hover{
+         color: white;
+     }
+     .container4 h2{
+        color: white;
+         font-family: 'Abel', sans-serif;
+     }
+     .about-us p{color: rgba(255, 255, 255, 0.432);
+         font-family: 'Abel', sans-serif;
+     
+     }
+     .newsteller p{color: rgba(255, 255, 255, 0.432);
+     
+         font-family: 'Abel', sans-serif;
+     
+     }
+     .follow p{
+         color: rgba(255, 255, 255, 0.432);
+         padding-left: 2.6rem;
+         
+         font-family: 'Abel', sans-serif;
+     }
+     .rights p{
+     
+       color: white; 
+       font-family: 'Abel', sans-serif; 
+       font-size: 1rem;
+       margin-bottom: 0%;
+       text-align: center;
+      
+     }
+    .logo .head{
+        font-weight: 600;
+        margin-left: .5rem;
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+     }
+     @media only screen and (max-width:750px){
+       .toggle-icons{
+           display: inline;
+       }
+       
+        .logo{
+            margin-left: 2rem;
+        }
+        .start{
+        
+            grid-template-columns: none;
+           
+        }
+        .heading{
+            margin-left: 1.7rem;
+            
+        }
+        .side img{
+           margin-top: 2rem;
+           height: 80%;
+        }
+        .side{
+            margin-right: 1rem;
+        }
+        .start1{
+            grid-template-columns: none;
+        }
+        .heading1{
+            margin-left: 2rem;
+           
+        }
+        .heading1 img{
+            margin-top: 4rem;
+            width: 95%;
+          
+        }
+        .side1 {
+            margin-right: 1rem;
+            margin-top: 0rem;
+            margin-left: 1rem;
+        }
+        .start2{
+            grid-template-columns: none;
+        }
+        .heading2{
+            margin-left: 1rem;
+            
+        }
+        .side2{
+            margin-right: 1rem;
+        }
+        .heading3 img{
+            margin-top: 3rem;
+        }
+        footer.footer .container4{
+            grid-template-columns: none;
+            
+            }
+            footer.footer{
+            height: 100%;
+            
+            }
+            
+            
+            footer.footer .container4 >div{
+            
+            padding: 1rem .9rem;
+            
+            }
+           
+            .follow h2{
+            
+                padding-left: 6rem;
+            }
+            .follow p{
+            
+                padding-left: 6.4rem;
+            }
+            .qwe{
+                padding-left: 3.4rem;
+            }
+            .rights p{
+                font-size: 1rem;
+                margin: 0rem;
+            }
+            .img2{
+                margin-left: 0%;
+            }
+            .side3 img{
+                width: 100%;
+                height: 92%;
+            }
+            .shoe-content{
+                width: 70%;
+                margin: 3rem 4rem;
+            }
+            .flex-row{
+                flex-direction: column;
+            }
+            .nav-items{
+                flex-direction: column;
+            }
+            
+     }
+     @media only screen and (max-width:620px){
+      .toggle-icons{
+          left: 34rem;
+      }
+     }
+     @media only screen and (max-width:590px){
+      .toggle-icons{
+          left: 32rem;
+      }
+     }
+     @media only screen and (max-width:550px){
+      .toggle-icons{
+          left: 30rem;
+      }
+     }
+     @media only screen and (max-width:520px){
+      .toggle-icons{
+          left: 27rem;
+      }
+     }
+     @media only screen and (max-width:480px){
+      .toggle-icons{
+          left: 26rem;
+      }
+     }
+     @media only screen and (max-width:460px){
+      .toggle-icons{
+          left: 24rem;
+      }
+     }
+    
+     @media only screen and (max-width:430px){
+         .shoe-content{
+             width: 78%;
+             margin: 3rem 3.5rem;
+         }
+         .toggle-icons{
+            left: 22rem;
+        }
+     }
+     @media only screen and (max-width:415px){
+        .shoe-content{
+            width: 78%;
+            margin: 3rem 3rem;
+        }
+     }@media only screen and (max-width:460px){
+        .toggle-icons{
+            left: 20rem;
+        }
+       }
+     @media only screen and (max-width:385px){
+        .shoe-content{
+            width: 80%;
+            margin: 3rem 2.5rem;
+        }
+        .toggle-icons{
+            left: 18rem;
+        }
+     }
